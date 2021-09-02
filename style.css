@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto Slab
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    width: calc(100% - 10vw);
+    margin: 0 auto;
+}
+
+header h1 {
+    color: #2F5A7B
+}
+header h4, .header-number {
+    color: #63AFC9
+}
+
+.header-conteiner {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+.header-title h4 {
+    padding: 0.5rem;
+}
+
+.header-phone {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main {
+    height: 370vh;
+    width: 100%
+}
+
+.main-apresentation-conteiner {
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    background-image: url(assets/medico\ negro2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.apresentation-text h1 {
+    font-size: 2.5vw;
+}
+
+.box-prime {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.main-apresentation-box {
+    height: 80vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.apresentation-text {
+    width: 20vw;
+}
+
+.services-list {
+    width: 20vw;
+    display: flex;
+}
+.services-list p {
+    width: 80%
+}
+.services-list img {
+   height: 4vh;
+}
+
+.information-box {
+    height: 70vh;
+    width: 23%;
+    margin: 2rem 0 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #A1D6E8;
+    color: #2F5A7B;
+    border-radius: 20px;
+}
+
+button, input {
+    height: 5vh;
+    width: 55%;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    color: #fff;
+    background-color: #FD8211;
+    cursor: pointer;
+}
+
+
+.number-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.call-box {
+    width: 12vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.services-number {
+    color: #000
+}
+
+.companies-box {
+    height: 30vh;
+    width: 100%;
+    background-color: #63AFC9;
+    color: #fff
+}
+.companies-box h4 {
+    padding: 3rem;
+    text-align: center;
+    font-weight: lighter;
+}
+.companies-img {
+    height: 15vh;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff
+}
+.companies-img img {
+    width: 10vw;
+}
+
+.step-box {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.step-prime {
+    display: flex
+}
+
+.step-step {
+    width: 17vw;
+    display: flex;
+    align-items: center;
+}
+
+.advantages-box {
+    height: 50vh;
+    width: 100%;
+    background-color: #63AFC9;
+    color: #fff;
+    font-weight: lighter;
+}
+
+.advantages-prime {
+    width: 65vw;
+    margin: 0 auto;
+    display: flex;
+}
+
+.couple-img img {
+    width: 29vw;
+}
+
+.advantages-text {
+    padding: 1rem;
+    height: 50vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+.advantage-title {
+    width: 59%;
+    margin-bottom: 1vw;
+    font-size: max(16px, 1.8vw)
+}
+
+.persona-conteiner {
+    margin-top: 5vw;
+    color:#2F5A7B
+}
+
+.persona-conteiner h1 {
+    text-align: center;
+    color: #000
+}
+
+.persona-box {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.persona-part {
+    display: flex;
+    align-items: center;
+}
+.persona-part img {
+    height: 60%;
+    margin-right: 1vw;
+}
+.aspas-img {
+    width: 4vw;
+}
+.persona-part p {
+    width: 20vw;
+    font-size: max(14px, 0.75vw)
+}
+.persona-part h3 {
+    margin-top: 1vw;
+    font-size: 13px
+}
+
+footer {
+    height: 15vh;
+    width: 100%;    
+    background-color:#63AFC9;
+    color: #fff;
+    font-weight: lighter;
+}
+
+.footer-conteiner {
+    height: 15vh;
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-conteiner p {
+    width: 70vw;
+}
